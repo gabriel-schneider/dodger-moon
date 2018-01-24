@@ -1,0 +1,1 @@
+return obj_world.playable_area
