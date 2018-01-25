@@ -7,4 +7,5 @@ window_set_size(global.display_width, global.display_height)
 display_set_gui_size(global.display_width, global.display_height)
 surface_resize(application_surface, global.display_width, global.display_height)
 
+mode = "road"
 

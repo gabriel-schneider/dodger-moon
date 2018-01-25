@@ -1,4 +1,4 @@
-var is_valid = world_is_valid_pos(obj_world._mouse_x, obj_world._mouse_y);
+var is_valid = world_position_is_valid(obj_world._mouse_x, obj_world._mouse_y);
 
 if is_valid {
 	draw_set_color(c_lime)
