@@ -1,8 +1,8 @@
-width = 40
-height = 40
+width = 64
+height = 64
 unit_size = 32
 
-playable_area_padding = 8
+playable_area_padding = 4
 playable_area = [playable_area_padding, playable_area_padding, 
 				 width - playable_area_padding, height - playable_area_padding]
 

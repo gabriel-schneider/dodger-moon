@@ -1,9 +1,9 @@
-/// world_position_is_valid(unit_x, unit_y)
-/// @param unit_x
-/// @param unit_y
-/// @description check if a position in the world is in the playable area
+///@function world_position_is_valid(unit_x, unit_y)
+/// @param {real} unit_x
+/// @param {real} unit_y
+/// @description check if a position is inside world
 
-return point_in_rectangle(argument0, argument1, obj_world.playable_area[0],
-												obj_world.playable_area[1],
-												obj_world.playable_area[2] - 1,
-												obj_world.playable_area[3] - 1)
+return point_in_rectangle(argument0, argument1, 0,
+												0,
+												world_get_width() - 1,
+												world_get_height() - 1)

@@ -1,4 +1,7 @@
 // General variables
+pos_prev_wux = 0
+pos_prev_wuy = 0
+
 pos_x = 0
 pos_y = 0
 

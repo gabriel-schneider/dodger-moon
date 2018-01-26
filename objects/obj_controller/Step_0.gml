@@ -1,12 +1,16 @@
 var xx = world_get_mouse_x()
 var yy = world_get_mouse_y()
 	
-if (mode == "road") {	
+if (mode == "road") {
 	if (mouse_check_button(mb_left)) {
-		road_build(xx, yy)
+		if road_build(xx, yy) {
+			road_update_surface()	
+		}
 	}
 
 	if (mouse_check_button(mb_right)) {
-		road_destroy(xx, yy)	
-	}	
+		if road_destroy(xx, yy) {
+			road_update_surface()	
+		}
+	}
 }
